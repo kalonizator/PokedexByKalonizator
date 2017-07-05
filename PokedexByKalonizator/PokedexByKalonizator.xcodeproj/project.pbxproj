@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31E31ED71F0D746A00EE36EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E31ED61F0D746A00EE36EC /* AppDelegate.swift */; };
+		31E31ED91F0D746A00EE36EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E31ED81F0D746A00EE36EC /* ViewController.swift */; };
+		31E31EDC1F0D746A00EE36EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E31EDA1F0D746A00EE36EC /* Main.storyboard */; };
+		31E31EDF1F0D746A00EE36EC /* PokedexByKalonizator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31E31EDD1F0D746A00EE36EC /* PokedexByKalonizator.xcdatamodeld */; };
+		31E31EE11F0D746A00EE36EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E31EE01F0D746A00EE36EC /* Assets.xcassets */; };
+		31E31EE41F0D746A00EE36EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E31EE21F0D746A00EE36EC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31E31ED31F0D746A00EE36EC /* PokedexByKalonizator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokedexByKalonizator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E31ED61F0D746A00EE36EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31E31ED81F0D746A00EE36EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31E31EDB1F0D746A00EE36EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31E31EDE1F0D746A00EE36EC /* PokedexByKalonizator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PokedexByKalonizator.xcdatamodel; sourceTree = "<group>"; };
+		31E31EE01F0D746A00EE36EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31E31EE31F0D746A00EE36EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31E31EE51F0D746A00EE36EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31E31ED01F0D746A00EE36EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31E31ECA1F0D746A00EE36EC = {
+			isa = PBXGroup;
+			children = (
+				31E31ED51F0D746A00EE36EC /* PokedexByKalonizator */,
+				31E31ED41F0D746A00EE36EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31E31ED41F0D746A00EE36EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31E31ED31F0D746A00EE36EC /* PokedexByKalonizator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31E31ED51F0D746A00EE36EC /* PokedexByKalonizator */ = {
+			isa = PBXGroup;
+			children = (
+				31E31ED61F0D746A00EE36EC /* AppDelegate.swift */,
+				31E31ED81F0D746A00EE36EC /* ViewController.swift */,
+				31E31EDA1F0D746A00EE36EC /* Main.storyboard */,
+				31E31EE01F0D746A00EE36EC /* Assets.xcassets */,
+				31E31EE21F0D746A00EE36EC /* LaunchScreen.storyboard */,
+				31E31EE51F0D746A00EE36EC /* Info.plist */,
+				31E31EDD1F0D746A00EE36EC /* PokedexByKalonizator.xcdatamodeld */,
+			);
+			path = PokedexByKalonizator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31E31ED21F0D746A00EE36EC /* PokedexByKalonizator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E31EE81F0D746A00EE36EC /* Build configuration list for PBXNativeTarget "PokedexByKalonizator" */;
+			buildPhases = (
+				31E31ECF1F0D746A00EE36EC /* Sources */,
+				31E31ED01F0D746A00EE36EC /* Frameworks */,
+				31E31ED11F0D746A00EE36EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokedexByKalonizator;
+			productName = PokedexByKalonizator;
+			productReference = 31E31ED31F0D746A00EE36EC /* PokedexByKalonizator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31E31ECB1F0D746A00EE36EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kalonizator;
+				TargetAttributes = {
+					31E31ED21F0D746A00EE36EC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4P79T5M93T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31E31ECE1F0D746A00EE36EC /* Build configuration list for PBXProject "PokedexByKalonizator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31E31ECA1F0D746A00EE36EC;
+			productRefGroup = 31E31ED41F0D746A00EE36EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31E31ED21F0D746A00EE36EC /* PokedexByKalonizator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31E31ED11F0D746A00EE36EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E31EE41F0D746A00EE36EC /* LaunchScreen.storyboard in Resources */,
+				31E31EE11F0D746A00EE36EC /* Assets.xcassets in Resources */,
+				31E31EDC1F0D746A00EE36EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31E31ECF1F0D746A00EE36EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E31ED91F0D746A00EE36EC /* ViewController.swift in Sources */,
+				31E31ED71F0D746A00EE36EC /* AppDelegate.swift in Sources */,
+				31E31EDF1F0D746A00EE36EC /* PokedexByKalonizator.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31E31EDA1F0D746A00EE36EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E31EDB1F0D746A00EE36EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31E31EE21F0D746A00EE36EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E31EE31F0D746A00EE36EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31E31EE61F0D746A00EE36EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31E31EE71F0D746A00EE36EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31E31EE91F0D746A00EE36EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P79T5M93T;
+				INFOPLIST_FILE = PokedexByKalonizator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kalonizator.PokedexByKalonizator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		31E31EEA1F0D746A00EE36EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P79T5M93T;
+				INFOPLIST_FILE = PokedexByKalonizator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kalonizator.PokedexByKalonizator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31E31ECE1F0D746A00EE36EC /* Build configuration list for PBXProject "PokedexByKalonizator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E31EE61F0D746A00EE36EC /* Debug */,
+				31E31EE71F0D746A00EE36EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E31EE81F0D746A00EE36EC /* Build configuration list for PBXNativeTarget "PokedexByKalonizator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E31EE91F0D746A00EE36EC /* Debug */,
+				31E31EEA1F0D746A00EE36EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31E31EDD1F0D746A00EE36EC /* PokedexByKalonizator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31E31EDE1F0D746A00EE36EC /* PokedexByKalonizator.xcdatamodel */,
+			);
+			currentVersion = 31E31EDE1F0D746A00EE36EC /* PokedexByKalonizator.xcdatamodel */;
+			path = PokedexByKalonizator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31E31ECB1F0D746A00EE36EC /* Project object */;
+}
